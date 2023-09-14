@@ -1,0 +1,10 @@
+<header class="header">
+    <nav class="header__menu">
+        <a href="/">main</a>
+        <a href="/ui-kit.html">ui-kit</a>
+    </nav>
+    <div>
+        <a href="mailto:<%= email %>"><%= email %></a>
+        <a href="tel:<%= util.clear(phone, /[\s\(\)\-]/ig) %>"><%= phone %></a>
+    </div>
+</header>
